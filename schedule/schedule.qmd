@@ -1,0 +1,32 @@
+---
+title: "Schedule"
+sidebar: false
+toc: false
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Workshop Schedule
+
+## 2 day lessons
+
+| Time | Topic | Instructor |
+|:-----------------:|:------------------------------------:|:-------------:|
+| Day 1 | [Workshop Introduction](../slides/Intro2R4researchers_workshop.pdf) | Sichao |
+| Day 2 | [Hands-on download](../codes/codes.zip) ([view](../codes/Intro-to-R.html)) | Sichao |
+
+
+
+## Resources
+
+-   [An Introduction to R](https://cran.r-project.org/doc/manuals/R-intro.pdf)
+-   [Data carpentry lessons](https://software-carpentry.org/lessons/)
+-   [The R graph gallery](https://r-graph-gallery.com/)
+
+
+## Cheatsheets
+
+-   [base R cheatsheet](../codes/cheatsheets/base-r-cheat-sheet.pdf)
+-   [RStudio cheatsheet](../codes/cheatsheets/rstudio-ide.pdf)
+-   [ggplot2 cheatsheet](../codes/cheatsheets/data-visualization.pdf)
