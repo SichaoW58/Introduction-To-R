@@ -33,6 +33,12 @@ jobs:
         with:
           r-version: '4.4'
 
+      - name: Build codes zip
+        run: |
+          rm -f codes/codes.zip
+          cd codes
+          zip -r codes.zip . -x codes.zip
+
       - name: Render site
         uses: quarto-dev/quarto-actions/render@v2
 

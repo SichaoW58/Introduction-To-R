@@ -4,7 +4,7 @@ sidebar: false
 toc: false
 ---
 
-# Introduction to R For Researchers
+# Introduction to R
 
 ## Learning Objectives
 
