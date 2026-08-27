@@ -13,7 +13,7 @@ editor:
 
 | Time | Topic | Instructor |
 |:-----------------:|:------------------------------------:|:-------------:|
-| Day 1 | [Workshop Introduction](../slides/Intro2R4researchers_workshop.html) | Sichao |
+| Day 1 | [Workshop Introduction](../slides/Intro2R.html) | Sichao |
 | Day 2 | [Hands-on download](../codes/codes.zip) ([view](../codes/Intro-to-R.html)) | Sichao |
 
 
