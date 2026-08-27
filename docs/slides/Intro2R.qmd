@@ -1,0 +1,249 @@
+---
+title: "Introduction to R"
+subtitle: "Two-part lessons"
+author: "Sichao Wang"
+date: "8/31/2026"
+format:
+  revealjs:
+    css: css/idastyle.css
+    embed-resources: true
+    theme: serif
+    mouse-wheel: true
+    slide-number: false
+    show-slide-number: all
+    chalkboard: false
+    logo: logo_MSU_CSTAT.png
+    footer: "Introduction to R | CSTAT @ MSU"
+    transition: slide
+    progress: true
+    toc: false
+    incremental: false
+    code-fold: true
+    smaller: true        # Reduces base text size globally
+    scrollable: true     # Allows scrolling on all slides
+    fig-align: center
+    width: 1280
+    height: 720
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Agenda
+
+1. What is R?
+2. Why R?
+3. How to use R?
+   - Installation
+   - Some concepts and good practices
+4. Hands-on exercises
+   - Data preparation
+   - Initial data analysis (descriptive statistics)
+
+# What is R?
+
+## Statistical programming language
+
+R is an interpreted programming language for statistical computing and graphics.
+
+- Created by statisticians Ross Ihaka and Robert Gentleman and first shared in 1993.
+- Considered a successor of the S language created by AT&T Bell Laboratories.
+- CRAN (The Comprehensive R Archive Network) was founded in 1997 by Kurt Hornik and Fritz Leisch.
+
+CRAN hosts source code, executable files, documentation, and user-created packages.
+
+# Why R?
+
+## Great research tool
+
+1. Free: everyone can use it and contribute.
+2. Advanced statistical methods that may not be available in other software.
+3. Flexible for simple calculations or complex analysis reports.
+4. Powerful graphics with reproducible figure generation.
+5. Multiple output formats, including interactive outputs.
+6. Reproducible research workflows that benefit the broader research community.
+
+And many more.
+
+# How to Use R
+
+## Install R
+
+Installing R is straightforward.
+
+1. Go to [CRAN (Comprehensive R Archive Network)](https://cran.r-project.org/).
+2. Download R for Linux, Mac, or Windows. Latest version: R-4.6.1 (released on 2026-06-24, Happy Hop).
+3. For Windows, install the base distribution.
+4. For Mac, choose the installer matching your CPU architecture.
+
+::: {.aside}
+<img src="https://static.wixstatic.com/media/449abe_5bcdc480851443d6b592c87fa3552f4e~mv2.jpg/v1/fill/w_764,h_764,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/cb-color.jpg" height="100" style="vertical-align: middle; margin-right: 8px;">
+*All of the release names are references to Peanuts strips/films.*
+:::
+
+
+## Install IDE: RStudio (Posit)
+
+RStudio is the most popular integrated development environment (IDE) for R.
+
+Install steps:
+
+1. Go to the Posit [RStudio download page](https://docs.posit.co/ide/user/#rstudio-ide-oss-downloads).
+2. Choose the installer for your system.
+3. Follow installation instructions.
+
+
+## Cloud option: Posit Cloud
+
+Posit Cloud allows using R and RStudio without local installation.
+
+Steps:
+
+1. Create an account or log in at [Posit Cloud](https://posit.cloud/).
+2. Create a new workspace.
+3. Create a new project.
+
+
+## R GUI and RStudio layout
+
+- Use Tools > Global Options to customize layout and settings.
+- Typical panes include:
+  - Source editor
+  - Console
+  - Environment and Files
+  - History
+
+## Base R (`RGui`)
+![](https://users.ssc.wisc.edu/~dehemken/Rworkshops/interface/RInterface.JPG){width="100%"}
+
+## The RStudio (4 Panes)
+
+![](https://datacarpentry.github.io/genomics-r-intro/fig/rstudio_session_4pane_layout.png){fig-align="center" width="95%"}
+
+
+
+
+## Some concepts
+
+- **Packages**: collections of functions, documentation, and data.
+- **Functions**: operations that return outputs, usually with arguments.
+- **Assignment operator**: [**<-**]{style="color: #db8b2f;"}
+- **Case sensitivity**: for example, **g**reat and **G**reat are different.
+- **Data modes**: numeric, integer, character, complex, logical.
+- **Data structures**: vector, matrix, factor, list, data frame.
+
+```r
+install.packages("pkgnames")
+library(pkgnames)
+mean(x)
+sd(x)
+class(x)
+typeof(x)
+```
+
+## Good practices in R{.scrollable}
+
+- Start with a clean environment. 
+- Prefer projects and avoid `setwd()` and `rm(list = ls())` in scripts.
+- Set seeds for random processes with `set.seed()`.
+- Follow a consistent coding style.
+- Comment code for clarity.
+- Use pipe operator `|>`. 
+
+::: {.aside}
+"If the first line of your R script is rm(list = ls()), I will come into your office and SET YOUR COMPUTER ON FIRE.--- Jenny Bryan"
+:::
+
+---
+
+- Use `sessionInfo()` to record package versions.
+- Learn keyboard shortcuts for faster workflows.
+- Use `help(function_name)` or `?function_name` for documentation.
+- Use GitHub for version control.
+- Use `R Markdown` or `Quarto` for reproducible reports.
+
+
+# Resources
+
+## Books
+
+- R for Data Science, Hadley Wickham
+- ggplot2: Elegant Graphics for Data Analysis, Hadley Wickham
+- Advanced R, Hadley Wickham
+- R Graphics Cookbook, Paul Teetor
+- R in a Nutshell, Joseph Adler
+- R in Action, Robert Kabacoff
+- Introductory Statistics with R, Peter Dalgaard
+- R for Everyone, Jared P. Lander
+
+
+## Websites
+
+- An Introduction to R: <https://cran.r-project.org/doc/manuals/R-intro.pdf>
+- R-bloggers: <https://www.r-bloggers.com/>
+- RPubs: <https://rpubs.com/>
+- R-seek: <https://rseek.org/>
+- Data Carpentry lessons: <https://software-carpentry.org/lessons/>
+- Quick-R: <https://www.statmethods.net/>
+- MSU R Programming for Data Sciences: <https://jeffdoser.com/>
+- The R Graph Gallery: <https://r-graph-gallery.com/>
+- Good practices in scientific computing:
+  <https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/>
+
+# Hands-on demos
+
+We now move to practical examples in RStudio.
+
+## Data preparation
+
+This class assumes we are working with clean data that is ready for analysis.
+
+- Do not underestimate data preparation time.
+- Tidy data concept (Wickham, 2014):
+  1. Each variable forms a column.
+  2. Each observation forms a row.
+  3. Each type of observational unit forms a table.
+- tidyverse is very helpful for data preparation.
+
+Reference: Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), 1-23.
+
+## Initial data analysis (IDA)
+
+IDA ensures transparency and integrity of preconditions for responsible statistical analyses.
+
+It includes:
+
+- Metadata setup
+- Data cleaning
+- Data screening
+- Documentation and initial data reporting
+- Refining and updating the analysis plan
+
+Data screening is related to descriptive statistics:
+
+1. Distribution of single variables
+2. Missing data
+3. Association between variables
+
+References:
+
+- Baillie et al. (2022), PLoS Computational Biology, 18(2): e1009819
+- Huebner et al. (2021), Observational Studies, 4: 171-192
+
+## Initial data analysis (IDA)
+
+```r
+remotes::install_github("higgi13425/medicaldata")
+```
+
+Acute Bacterial Meningitis (ABM) dataset:
+
+- Used here to demonstrate descriptive data analysis.
+- Follow along with your own clean dataset when possible.
+
+Reference: Spanos A, Harrell FE Jr, Durack DT. Differential diagnosis of acute meningitis. JAMA. 1989;262(19):2700-2707.
+
+# Thank You
+
+Questions and discussion.

@@ -1,38 +1,115 @@
 [
   {
-    "objectID": "schedule/schedule.html",
-    "href": "schedule/schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Time\nTopic\nInstructor\n\n\n\n\nDay 1\nWorkshop Introduction\nSichao\n\n\nDay 2\nHands-on download (view)\nSichao\n\n\n\n\n\n\n\nAn Introduction to R\nData carpentry lessons\nThe R graph gallery\n\n\n\n\n\nbase R cheatsheet\nRStudio cheatsheet\nggplot2 cheatsheet"
+    "objectID": "slides/Intro2R.html#agenda",
+    "href": "slides/Intro2R.html#agenda",
+    "title": "Introduction to R",
+    "section": "Agenda",
+    "text": "Agenda\n\nWhat is R?\nWhy R?\nHow to use R?\n\nInstallation\nSome concepts and good practices\n\nHands-on exercises\n\nData preparation\nInitial data analysis (descriptive statistics)"
   },
   {
-    "objectID": "schedule/schedule.html#day-lessons",
-    "href": "schedule/schedule.html#day-lessons",
-    "title": "Schedule",
-    "section": "",
-    "text": "Time\nTopic\nInstructor\n\n\n\n\nDay 1\nWorkshop Introduction\nSichao\n\n\nDay 2\nHands-on download (view)\nSichao"
+    "objectID": "slides/Intro2R.html#statistical-programming-language",
+    "href": "slides/Intro2R.html#statistical-programming-language",
+    "title": "Introduction to R",
+    "section": "Statistical programming language",
+    "text": "Statistical programming language\nR is an interpreted programming language for statistical computing and graphics.\n\nCreated by statisticians Ross Ihaka and Robert Gentleman and first shared in 1993.\nConsidered a successor of the S language created by AT&T Bell Laboratories.\nCRAN (The Comprehensive R Archive Network) was founded in 1997 by Kurt Hornik and Fritz Leisch.\n\nCRAN hosts source code, executable files, documentation, and user-created packages."
   },
   {
-    "objectID": "schedule/schedule.html#resources",
-    "href": "schedule/schedule.html#resources",
-    "title": "Schedule",
-    "section": "",
-    "text": "An Introduction to R\nData carpentry lessons\nThe R graph gallery"
+    "objectID": "slides/Intro2R.html#great-research-tool",
+    "href": "slides/Intro2R.html#great-research-tool",
+    "title": "Introduction to R",
+    "section": "Great research tool",
+    "text": "Great research tool\n\nFree: everyone can use it and contribute.\nAdvanced statistical methods that may not be available in other software.\nFlexible for simple calculations or complex analysis reports.\nPowerful graphics with reproducible figure generation.\nMultiple output formats, including interactive outputs.\nReproducible research workflows that benefit the broader research community.\n\nAnd many more."
   },
   {
-    "objectID": "schedule/schedule.html#cheatsheets",
-    "href": "schedule/schedule.html#cheatsheets",
-    "title": "Schedule",
-    "section": "",
-    "text": "base R cheatsheet\nRStudio cheatsheet\nggplot2 cheatsheet"
+    "objectID": "slides/Intro2R.html#install-r",
+    "href": "slides/Intro2R.html#install-r",
+    "title": "Introduction to R",
+    "section": "Install R",
+    "text": "Install R\nInstalling R is straightforward.\n\nGo to CRAN (Comprehensive R Archive Network).\nDownload R for Linux, Mac, or Windows. Latest version: R-4.6.1 (released on 2026-06-24, Happy Hop).\nFor Windows, install the base distribution.\nFor Mac, choose the installer matching your CPU architecture.\n\n\n\n All of the release names are references to Peanuts strips/films."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "",
-    "section": "",
-    "text": "Code\n\n\n\n\n\nIntroduction to R for Researchers\n\n\n\n\n\n\n\n\nAudience\nComputational skills required\nDuration\n\n\n\n\nResearchers\nNone\n3 hours\n\n\n\n\nDescription\nThis repository has teaching materials for a hands-on Introduction to R for Researchers workshop. The workshop will introduce participants to the basics of R and RStudio. R is a simple programming environment that enables the effective handling of data, while providing excellent graphical support. RStudio is a tool that provides a user-friendly environment for working with R. These materials are intended to provide both basic R programming knowledge and its application for increasing efficiency for data analysis.\nNote for participants: No prior experience with R is required for this workshop. We will walk through the hands-on exercises together. No need to preview the materials before the workshop.\n\n\nLearning Objectives\n\nR and R Studio: Familiarize with R and RStudio and navigate the RStudio.\nR data types and structures: Understand the frequently-used data types and data structures in R.\nData manipulation essentials: Demonstrate the use of functions for wrangling data from various data structures.\nData visualization (Optional): Simple visualization using the ggplot2 package.\n\n\n\nMaterials\n\nWorkshop schedule\nCode source (Quarto)\nCode source (R Markdown)\n\n\n\nInstallation Requirements\nPlease install R and RStudio before the ‘Introduction to R For Researchers’ workshop. Ensure that both programs are running correctly on your machine. If you encounter any technical difficulties during the installation, please contact the IT department within your specific department for assistance.\n\n\nInstalling R\nIt is straightforward installing R on your machine. Follow these steps:\n\nGo to the CRAN (Comprehensive R Archive Network) R website.\nChoose to download R for Linux, Mac or Windows. Latest version: R-4.6.0 (released on 2026-04-24, Because it was There).\nFor Windows users, just install ‘base’ and this will link you to the download file.\nFor Mac users, make sure you download the right version for your CPU.\n\n\n\nInstalling RStudio\nRStudio is the most popular integrated development environment (IDE) for R. It makes working with R easier, more productive, and organized, especially for new users. Follow these steps:\n\nGo to the RStudio download website (Posit).\nChoose the ‘Installers for your system’ to download\nInstall RStudio as per the instructions.\n\n\n\nDataset\nAll files used for this workshop are available here:\n\nABM CSV data\nABM RDS data"
+    "objectID": "slides/Intro2R.html#install-ide-rstudio-posit",
+    "href": "slides/Intro2R.html#install-ide-rstudio-posit",
+    "title": "Introduction to R",
+    "section": "Install IDE: RStudio (Posit)",
+    "text": "Install IDE: RStudio (Posit)\nRStudio is the most popular integrated development environment (IDE) for R.\nInstall steps:\n\nGo to the Posit RStudio download page.\nChoose the installer for your system.\nFollow installation instructions."
+  },
+  {
+    "objectID": "slides/Intro2R.html#cloud-option-posit-cloud",
+    "href": "slides/Intro2R.html#cloud-option-posit-cloud",
+    "title": "Introduction to R",
+    "section": "Cloud option: Posit Cloud",
+    "text": "Cloud option: Posit Cloud\nPosit Cloud allows using R and RStudio without local installation.\nSteps:\n\nCreate an account or log in at Posit Cloud.\nCreate a new workspace.\nCreate a new project."
+  },
+  {
+    "objectID": "slides/Intro2R.html#r-gui-and-rstudio-layout",
+    "href": "slides/Intro2R.html#r-gui-and-rstudio-layout",
+    "title": "Introduction to R",
+    "section": "R GUI and RStudio layout",
+    "text": "R GUI and RStudio layout\n\nUse Tools &gt; Global Options to customize layout and settings.\nTypical panes include:\n\nSource editor\nConsole\nEnvironment and Files\nHistory"
+  },
+  {
+    "objectID": "slides/Intro2R.html#base-r-rgui",
+    "href": "slides/Intro2R.html#base-r-rgui",
+    "title": "Introduction to R",
+    "section": "Base R (RGui)",
+    "text": "Base R (RGui)"
+  },
+  {
+    "objectID": "slides/Intro2R.html#the-rstudio-4-panes",
+    "href": "slides/Intro2R.html#the-rstudio-4-panes",
+    "title": "Introduction to R",
+    "section": "The RStudio (4 Panes)",
+    "text": "The RStudio (4 Panes)"
+  },
+  {
+    "objectID": "slides/Intro2R.html#some-concepts",
+    "href": "slides/Intro2R.html#some-concepts",
+    "title": "Introduction to R",
+    "section": "Some concepts",
+    "text": "Some concepts\n\nPackages: collections of functions, documentation, and data.\nFunctions: operations that return outputs, usually with arguments.\nAssignment operator: &lt;-\nCase sensitivity: for example, great and Great are different.\nData modes: numeric, integer, character, complex, logical.\nData structures: vector, matrix, factor, list, data frame.\n\ninstall.packages(\"pkgnames\")\nlibrary(pkgnames)\nmean(x)\nsd(x)\nclass(x)\ntypeof(x)"
+  },
+  {
+    "objectID": "slides/Intro2R.html#good-practices-in-r",
+    "href": "slides/Intro2R.html#good-practices-in-r",
+    "title": "Introduction to R",
+    "section": "Good practices in R",
+    "text": "Good practices in R\n\nStart with a clean environment.\nPrefer projects and avoid setwd() and rm(list = ls()) in scripts.\nSet seeds for random processes with set.seed().\nFollow a consistent coding style.\nComment code for clarity.\nUse pipe operator |&gt;.\n\n\n\n“If the first line of your R script is rm(list = ls()), I will come into your office and SET YOUR COMPUTER ON FIRE.— Jenny Bryan”"
+  },
+  {
+    "objectID": "slides/Intro2R.html#books",
+    "href": "slides/Intro2R.html#books",
+    "title": "Introduction to R",
+    "section": "Books",
+    "text": "Books\n\nR for Data Science, Hadley Wickham\nggplot2: Elegant Graphics for Data Analysis, Hadley Wickham\nAdvanced R, Hadley Wickham\nR Graphics Cookbook, Paul Teetor\nR in a Nutshell, Joseph Adler\nR in Action, Robert Kabacoff\nIntroductory Statistics with R, Peter Dalgaard\nR for Everyone, Jared P. Lander"
+  },
+  {
+    "objectID": "slides/Intro2R.html#websites",
+    "href": "slides/Intro2R.html#websites",
+    "title": "Introduction to R",
+    "section": "Websites",
+    "text": "Websites\n\nAn Introduction to R: https://cran.r-project.org/doc/manuals/R-intro.pdf\nR-bloggers: https://www.r-bloggers.com/\nRPubs: https://rpubs.com/\nR-seek: https://rseek.org/\nData Carpentry lessons: https://software-carpentry.org/lessons/\nQuick-R: https://www.statmethods.net/\nMSU R Programming for Data Sciences: https://jeffdoser.com/\nThe R Graph Gallery: https://r-graph-gallery.com/\nGood practices in scientific computing: https://swcarpentry.github.io/good-enough-practices-in-scientific-computing/"
+  },
+  {
+    "objectID": "slides/Intro2R.html#data-preparation",
+    "href": "slides/Intro2R.html#data-preparation",
+    "title": "Introduction to R",
+    "section": "Data preparation",
+    "text": "Data preparation\nThis class assumes we are working with clean data that is ready for analysis.\n\nDo not underestimate data preparation time.\nTidy data concept (Wickham, 2014):\n\nEach variable forms a column.\nEach observation forms a row.\nEach type of observational unit forms a table.\n\ntidyverse is very helpful for data preparation.\n\nReference: Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), 1-23."
+  },
+  {
+    "objectID": "slides/Intro2R.html#initial-data-analysis-ida",
+    "href": "slides/Intro2R.html#initial-data-analysis-ida",
+    "title": "Introduction to R",
+    "section": "Initial data analysis (IDA)",
+    "text": "Initial data analysis (IDA)\nIDA ensures transparency and integrity of preconditions for responsible statistical analyses.\nIt includes:\n\nMetadata setup\nData cleaning\nData screening\nDocumentation and initial data reporting\nRefining and updating the analysis plan\n\nData screening is related to descriptive statistics:\n\nDistribution of single variables\nMissing data\nAssociation between variables\n\nReferences:\n\nBaillie et al. (2022), PLoS Computational Biology, 18(2): e1009819\nHuebner et al. (2021), Observational Studies, 4: 171-192"
+  },
+  {
+    "objectID": "slides/Intro2R.html#initial-data-analysis-ida-1",
+    "href": "slides/Intro2R.html#initial-data-analysis-ida-1",
+    "title": "Introduction to R",
+    "section": "Initial data analysis (IDA)",
+    "text": "Initial data analysis (IDA)\nremotes::install_github(\"higgi13425/medicaldata\")\nAcute Bacterial Meningitis (ABM) dataset:\n\nUsed here to demonstrate descriptive data analysis.\nFollow along with your own clean dataset when possible.\n\nReference: Spanos A, Harrell FE Jr, Durack DT. Differential diagnosis of acute meningitis. JAMA. 1989;262(19):2700-2707."
   },
   {
     "objectID": "schedule/links-to-lessons.html",
@@ -66,6 +143,41 @@
     "objectID": "schedule/links-to-lessons.html#cheatsheets",
     "href": "schedule/links-to-lessons.html#cheatsheets",
     "title": "Codes",
+    "section": "",
+    "text": "base R cheatsheet\nRStudio cheatsheet\nggplot2 cheatsheet"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "Code\n\n\n\n\n\nIntroduction to R\n\n\n\n\n\n\n\n\nAudience\nComputational skills required\nDuration\n\n\n\n\nResearchers\nNone\n3 hours\n\n\n\n\nDescription\nThis repository has teaching materials for a hands-on Introduction to R as 2 days lessons. The workshop will introduce participants to the basics of R and RStudio. R is a simple programming environment that enables the effective handling of data, while providing excellent graphical support. RStudio is a tool that provides a user-friendly environment for working with R. These materials are intended to provide both basic R programming knowledge and its application for increasing efficiency for data analysis.\nNote for participants: No prior experience with R is required for this workshop. We will walk through the hands-on exercises together. No need to preview the materials before the workshop.\n\n\nLearning Objectives\n\nR and R Studio: Familiarize with R and RStudio and navigate the RStudio.\nR data types and structures: Understand the frequently-used data types and data structures in R.\nData manipulation essentials: Demonstrate the use of functions for wrangling data from various data structures.\nData visualization (Optional): Simple visualization using the ggplot2 package.\n\n\n\nMaterials\n\nWorkshop schedule\nCode source (Quarto)\nCode source (R Markdown)\n\n\n\nInstallation Requirements\nPlease install R and RStudio before the ‘Introduction to R For Researchers’ workshop. Ensure that both programs are running correctly on your machine. If you encounter any technical difficulties during the installation, please contact the IT department within your specific department for assistance.\n\n\nInstalling R\nIt is straightforward installing R on your machine. Follow these steps:\n\nGo to the CRAN (Comprehensive R Archive Network) R website.\nChoose to download R for Linux, Mac or Windows. Latest version: R-4.6.0 (released on 2026-04-24, Because it was There).\nFor Windows users, just install ‘base’ and this will link you to the download file.\nFor Mac users, make sure you download the right version for your CPU.\n\n\n\nInstalling RStudio\nRStudio is the most popular integrated development environment (IDE) for R. It makes working with R easier, more productive, and organized, especially for new users. Follow these steps:\n\nGo to the RStudio download website (Posit).\nChoose the ‘Installers for your system’ to download\nInstall RStudio as per the instructions.\n\n\n\nDataset\nAll files used for this workshop are available here:\n\nABM CSV data\nABM RDS data"
+  },
+  {
+    "objectID": "schedule/schedule.html",
+    "href": "schedule/schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Time\nTopic\nInstructor\n\n\n\n\nDay 1\nWorkshop Introduction\nSichao\n\n\nDay 2\nHands-on download (view)\nSichao\n\n\n\n\n\n\n\nAn Introduction to R\nData carpentry lessons\nThe R graph gallery\n\n\n\n\n\nbase R cheatsheet\nRStudio cheatsheet\nggplot2 cheatsheet"
+  },
+  {
+    "objectID": "schedule/schedule.html#day-lessons",
+    "href": "schedule/schedule.html#day-lessons",
+    "title": "Schedule",
+    "section": "",
+    "text": "Time\nTopic\nInstructor\n\n\n\n\nDay 1\nWorkshop Introduction\nSichao\n\n\nDay 2\nHands-on download (view)\nSichao"
+  },
+  {
+    "objectID": "schedule/schedule.html#resources",
+    "href": "schedule/schedule.html#resources",
+    "title": "Schedule",
+    "section": "",
+    "text": "An Introduction to R\nData carpentry lessons\nThe R graph gallery"
+  },
+  {
+    "objectID": "schedule/schedule.html#cheatsheets",
+    "href": "schedule/schedule.html#cheatsheets",
+    "title": "Schedule",
     "section": "",
     "text": "base R cheatsheet\nRStudio cheatsheet\nggplot2 cheatsheet"
   }

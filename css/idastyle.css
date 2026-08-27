@@ -1,0 +1,57 @@
+/* ==========================================================================
+   Title Slide Banner Layout & Background Logo
+   ========================================================================== */
+.quarto-title-block .quarto-title-banner {
+  background-image: url(logo_MSU_CSTAT.png);
+  background-size: 300px;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-left: 0px;
+  background-origin: content-box;
+}
+
+.quarto-title-banner {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: 5px;
+  height: 85%;
+}
+
+/* ==========================================================================
+   Global Content Slide Logo (Top Right Corner)
+   ========================================================================== */
+.slide-logo {
+  height: 70px !important;
+  max-height: 70px !important;
+  width: auto !important;
+  position: fixed !important;
+  top: 12px !important;
+  right: 12px !important;
+  bottom: unset !important;
+  left: unset !important;
+}
+
+/* ==========================================================================
+   Footer Layout & Far-Right Page Numbering Configuration
+   ========================================================================== */
+/* Set up footer container layout to handle spacing effectively */
+.reveal .footer {
+  width: 95% !important;
+  max-width: 100% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+/* Force slide numbers onto the footer row on the absolute right edge */
+html body .reveal .slide-number,
+html body .reveal .slide-number-wrapper {
+  position: absolute !important;
+  bottom: 20px !important;     /* Uniform vertical position with footer text */
+  right: 24px !important;      /* Snapped to the absolute right side */
+  left: unset !important;
+  top: unset !important;
+  font-size: 16px !important;  /* Elegant, matching typography */
+  color: #666666 !important;   /* Subtle grey color palette */
+  background: none !important; /* Strips theme background boxes */
+  z-index: 999 !important;     /* Ensures layout layers correctly */
+}
