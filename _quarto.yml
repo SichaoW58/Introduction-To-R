@@ -15,7 +15,7 @@ project:
 
 website:
   title: "Introduction to R"
-  site-url: https://sichaow58.github.io/Intro2R_workshop/
+  site-url: https://sichaow58.github.io/Introduction-To-R/
   google-analytics: G-68JBPLLNLG
   page-footer: >
       This workshop has been developed by statisticians of CSTAT at Michigan State University [CSTAT](https://cstat.msu.edu/)
@@ -33,7 +33,7 @@ website:
       - text: "CSTAT"
         href: https://cstat.msu.edu/
       - text: "GitHub"
-        href: https://github.com/SichaoW58/Intro2R_workshop
+        href: https://github.com/SichaoW58/Introduction-To-R
           
 
 format:
@@ -45,7 +45,7 @@ format:
     number-sections: false
     code-block-bg: true
     code-copy: true      # enables copy button (default in most themes)
-    code-tools: true     # enables the copy button!
+    code-tools: false    # hide the source-code tools panel on pages
     code-line-wrap: wrap
     prompt: true         
     self-contained: true
